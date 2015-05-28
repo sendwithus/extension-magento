@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Sendwithus
+ * @package    Sendwithus_Mail
+ * @author     Anatoly Koval
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <sections>
+        <sendwithus_mail module="mail" translate="label">
+            <label>Sendwithus API Configuration</label>
+            <sort_order>999</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>0</show_in_website>
+            <show_in_store>0</show_in_store>
+            <tab>service</tab>
+            <groups>
+                <credentials translate="label" module="mail">
+                    <label>API Keys</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <API_KEY translate="label">
+                            <label>API Key</label>
+                            <comment>Your sendwithus API Key</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </API_KEY>
+                        <TEST_API_KEY translate="label">
+                            <label>Test API Key</label>
+                            <comment>Your sendwithus Test API Key</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </TEST_API_KEY>
+                    </fields>
+                </credentials>
+            </groups>
+        </sendwithus_mail>
+    </sections>
+</config>

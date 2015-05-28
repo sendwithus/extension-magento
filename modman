@@ -1,0 +1,7 @@
+app/code/community/Sendwithus/Mail		app/code/community/Sendwithus/Mail
+app/etc/modules/Sendwithus_Mail.xml		app/etc/modules/Sendwithus_Mail.xml
+
+#@shell pushd $MODULE; \
+#    git submodule init; \
+#    git submodule update; \
+#    popd

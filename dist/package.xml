@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sendwithus_Mail</name>
+    <version>1.0.4</version>
+    <stability>beta</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Sendwithus for Magento</summary>
+    <description>Sendwithus for Magento</description>
+    <notes>Sendwithus for Magento</notes>
+    <authors><author><name>Matt Harris</name><user>mrmch</user><email>matt@sendwithus.com</email></author></authors>
+    <date>2015-01-22</date>
+    <time>21:13:05</time>
+    <contents><target name="magecommunity"><dir name="Sendwithus"><dir name="Mail"><dir name="Block"><dir name="Adminhtml"><dir name="Mail"><dir name="Edit"><file name="Form.php" hash="e69cbc64608354fe84dfc7aafdf590f7"/><dir name="Renderer"><file name="Systememail.php" hash="5a4c6fe4d4ecba41c388e277f765b729"/></dir><dir name="Tab"><file name="Emails.php" hash="2f0232418a1ce9595a3e0c74ec4ed9b8"/><file name="Emailsgrid.php" hash="794759535829ae5a096338c0404b642d"/></dir><file name="Tabs.php" hash="052af5e36da3da2bf782f1b336f1d84d"/></dir><file name="Edit.php" hash="b5cd38dbe3b9d3c25cf15778ead891c3"/><file name="Grid.php" hash="9508a08319b07e3f55bf057fef45cd3c"/></dir><file name="Mail.php" hash="999a50a911486c5c48a5c43d5a072220"/></dir></dir><dir name="Helper"><file name="API.php" hash="602d859bf1fcb01fde5adcb15515d813"/><file name="Data.php" hash="739bf595031c50adec7cbb3a2b474f9c"/><file name="Error.php" hash="947adae3eb17341c77a69651b3bf5c65"/><dir name="data"><file name="ca-certificates.pem" hash="5e3d7398ec33bed7a6b6604b8fb05185"/></dir></dir><dir name="Model"><file name="Available.php" hash="8ebc97cce9e1ba649715785a22e8a2c2"/><file name="Emails.php" hash="2d3848f425db8dd4926a2aee864cdd07"/><dir name="Mysql4"><dir name="Available"><file name="Collection.php" hash="ed8358b86d5c8cf41e7c511b13df8a66"/></dir><file name="Available.php" hash="6da0cde475e340f51ebf9f5af5d238b3"/><dir name="Emails"><file name="Collection.php" hash="f3e2d968aa32adeb965ef345935e1db3"/></dir><file name="Emails.php" hash="e291a16c7a8bedfd40b4ca6fa76770c7"/></dir><file name="Observer.php" hash="b8743cb19765c73b744937e8320e2338"/><file name="Template.php" hash="50da07085f5bee79619ca0d17e12a3d2"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="MailController.php" hash="48ab83d6f271effd11c710856874d6d3"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="0d5d7e0c6b33593a901fd4ee901158cc"/><file name="config.xml" hash="41f7173dc4b93340a96823efff147e27"/><file name="system.xml" hash="60c0c2b2e2ea3b23db9033d39757dd9a"/></dir><dir name="sql"><dir name="mail_setup"><file name="mysql4-install-1.0.2.php" hash="062433074fddda4e79008b2e475df0d9"/></dir></dir><file name=".DS_Store" hash="1a7a659e60d82fce5234e704c4bd79bc"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sendwithus_Mail.xml" hash="6a63564e66e71bf4e3394767419cf7ec"/></dir></target><target name="magelib"><dir name="Sendwithus"><file name="API.php" hash="9121868a9bff4da978d00f429cdad2ae"/><file name="Error.php" hash="c71253b252ee927d11b2720d18792e27"/><dir name="data"><file name="ca-certificates.pem" hash="5e3d7398ec33bed7a6b6604b8fb05185"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
